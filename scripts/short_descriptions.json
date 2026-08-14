@@ -1,0 +1,19 @@
+{
+  "prompt-design": "Design, diagnose, and repair one prompt's wording using the six prompt elements. Use for a single prompt with inconsistent or off-target output, or when the model ignores an instruction.",
+  "few-shot-prompting": "Select, format, order, and verify in-context examples. Use when instructions alone fail to stabilize format, style, or labels, or when the user pastes samples of the output they want.",
+  "context-engineering": "Budget and order everything entering the context window: system prompt, tools, retrieval, memory, history. Use when building or debugging an agent, or when quality decays as a session grows.",
+  "reasoning-and-deliberation": "Pick the right deliberation level for multi-step or arithmetic tasks: chain-of-thought, self-consistency, code delegation, self-critique. Use when wrong despite confident steps, or unstable.",
+  "prompt-chaining-and-workflows": "Splits a complex task into sequential prompts where each output feeds the next, with a validation gate between stages. Use when one prompt does too much, or debugging must isolate the failing stage.",
+  "structured-output-and-extraction": "Gets reliable structured output for extraction, classification, QA, and summarization: exact formats, fixed labels, missing-value and abstention handling. Use when output is inconsistent across runs.",
+  "synthetic-data-generation": "Generates diverse synthetic training/eval data via variable slots and randomness, not temperature alone, plus iterative generation. Use when data is scarce, sensitive, or output looks repetitive.",
+  "rag-architecture-design": "Decides if a task needs RAG, then designs the index: chunking, embeddings, metadata. Use when an assistant needs private or changing knowledge, or an existing RAG system retrieves poorly.",
+  "rag-retrieval-and-grounding": "Retrieves context at query time and grounds answers in it with citations: query rewriting, reranking, compression. Use when retrieved chunks are wrong or answers drift from sources.",
+  "rag-evaluation": "Measures RAG quality: context relevance, answer faithfulness, answer relevance, plus 4 robustness abilities. Use to baseline a RAG system or compare two configurations.",
+  "agentic-system-design": "Decides workflow vs. agent, then designs planning, memory, and control structure, including orchestrator/sub-agent splits. Use when building a multi-step assistant or an existing agent misbehaves.",
+  "function-calling-and-tool-design": "Defines and debugs an agent's tools: descriptions that drive correct selection, parameter constraints, and the action/observation loop. Use when the model calls the wrong tool or bad arguments.",
+  "react-agent": "Designs a Thought/Action/Observation loop where an agent reasons between tool calls and adapts to results, plus when to add self-reflection. Use when it loops or fails to adapt after a bad result.",
+  "prompt-evaluation-and-optimization": "Proves whether a prompt works and compares variants using a real test set, not one example. Covers automatic candidate generation and meta-prompting. Use to justify a prompt change or pick a variant.",
+  "factuality-and-hallucination-control": "Reduces confident fabrication: grounds in provided truth, calibrates abstention, tests with known-unknown questions. Use when a model states wrong facts confidently or never admits uncertainty.",
+  "prompt-injection-defense": "Defends against untrusted content (documents, tool results, input) overriding instructions or leaking the prompt: hardening, delimiting, detection. Use for systems reading external content.",
+  "jailbreak-resistance": "Recognizes and resists user attempts to bypass guidelines via roleplay, hypothetical framing, or a claimed persona. Use when talking the model into disallowed output, or after a jailbreak."
+}
