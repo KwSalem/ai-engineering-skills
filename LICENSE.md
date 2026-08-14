@@ -1,6 +1,6 @@
 # License
 
-Copyright (c) 2026 [YOUR NAME OR BUSINESS NAME HERE]. All rights reserved.
+Copyright (c) 2026 Engineer Salem S. ALHAREES. All rights reserved.
 
 This repository and its contents (including all files under `skills/`,
 `CONVENTIONS.md`, `SKILL_ROUTER.md`, `SKILL_DEPENDENCIES.md`, and this
