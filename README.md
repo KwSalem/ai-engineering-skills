@@ -74,14 +74,19 @@ Every skill's `references/sources.md` separates claims into two types:
 
 This distinction is load-bearing, not decorative: it lets anyone auditing this library verify exactly which procedural claims come from the source guide and which are original design decisions layered on top of it.
 
+## Licensing
+
+Original contributions in this repository are distributed under the proprietary terms in `LICENSE.md`.
+Third-party and open-source materials retain their original license rights and attribution requirements; see `THIRD_PARTY_NOTICES.md`, including the MIT License notice for DAIR.AI-derived material.
+
 ## Repository layout
 
 ```
 skills/                  Canonical source, long-form descriptions (Claude Code / API)
 dist/claude-ai/          Generated upload zips, short descriptions (claude.ai limit)
 scripts/                 Packaging script + the short-description registry it reads
-LICENSE.md               This repository's license (placeholder — replace before selling)
-THIRD_PARTY_NOTICES.md   Required attribution for content derived from dair-ai/Prompt-Engineering-Guide
+LICENSE.md               Proprietary license for this repository's original contributions
+THIRD_PARTY_NOTICES.md   Attribution and license notices for third-party/open-source material
 CONVENTIONS.md           Writing standard every skill in this library follows
 SKILL_ROUTER.md          How to pick the right skill for a problem
 SKILL_DEPENDENCIES.md    How skills depend on and complement each other
